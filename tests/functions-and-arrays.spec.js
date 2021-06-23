@@ -26,6 +26,7 @@ const shuffle = (currentArray) => {
   return array;
 };
 
+
 describe('Find the maximum', () => {
   test('should declare a function named maxOfTwoNumbers', () => {
     expect(typeof maxOfTwoNumbers).toBe('function');
@@ -45,6 +46,10 @@ describe('Find the maximum', () => {
     expect(maxOfTwoNumbers(4, 4)).toBe(4);
   });
 });
+
+
+
+
 
 describe('Find the longest word', () => {
   test('should declare a function named findLongestWord', () => {
@@ -136,6 +141,9 @@ describe('Bonus: Calculate the sum', () => {
   });
 });
 
+
+
+
 describe('Calculate the average of an array of numbers', () => {
   test('should declare a function named averageNumbers', () => {
     expect(typeof averageNumbers).toBe('function');
@@ -194,6 +202,9 @@ describe('Bonus: Calculate the average of a mixed elements array', () => {
     expect(avg([6, 12, 'miami', 1, 'barca', '200', 'lisboa', 8, true])).toBe(5.22);
   });
 });
+
+
+
 
 describe('Unique array', () => {
   test('should declare a function named uniquifyArray', () => {
